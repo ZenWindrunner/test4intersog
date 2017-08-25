@@ -9,12 +9,6 @@ from .celery import get_media_tags
 
 
 def home(request):
-    # if request.method == 'POST':
-    #     form = NumberMediaForm(request.POST)
-    #     if form.is_valid():
-    #         number = form.cleaned_data.get('number')
-    #
-    # form = NumberMediaForm
     context = {}
 
     return render(request, "index.html", context)
