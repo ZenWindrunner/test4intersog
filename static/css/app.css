@@ -1,0 +1,37 @@
+.centered {
+        left: 50%;
+}
+
+.layer-first {
+    position: relative;
+    /*z-index: 1;*/
+}
+
+.layer-second {
+    background: #fff url(../img/ajax-loader.gif) center center no-repeat;
+    bottom:0;
+    min-height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top:0;
+    width:100%;
+    /*z-index: 2;*/
+}
+
+.scrollable-menu, .scrollable-menu-nums {
+    height: auto;
+    max-height: 200px;
+    text-align:center;
+    overflow-x: hidden;
+    min-width: 120px;
+    margin: 0 auto;
+}
+
+.scrollable-menu :hover,.scrollable-menu-nums :hover {background: #555;}
+
+.scrollable-menu-nums {
+        min-width: 45px;
+}
+
+.top-buffer { margin-top:20px; }
+
