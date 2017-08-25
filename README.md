@@ -31,7 +31,7 @@ celery worker -A test4intersog -l info
 To start application on localhost:8000 from root of the project run:
 
 ```
-cd test4intersog; ./manage.py runserver
+./manage.py runserver
 ```
 
 
